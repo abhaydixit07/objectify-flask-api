@@ -68,5 +68,3 @@ def analyze_image():
         "response": completion.choices[0].message.content
     })
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
